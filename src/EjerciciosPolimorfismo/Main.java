@@ -9,7 +9,12 @@ public class Main {
         Animal perro = new Perro();
         perro.hacerSonido();
         
-
+        // Ejercicio 2
+     	System.out.println("\n      Ejercicio 2. Figura y Rectangulo\n");
+     	Figura figuritaR = new Rectangulo(10, 5);
+        System.out.println("Área del Rectángulo: " + figuritaR.area());
+     	
+     	
 	}
 
 }
