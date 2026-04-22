@@ -39,6 +39,11 @@ public class Main {
      	Vehiculo m1 = new Motocicleta();
         m1.encender();
         
+        // Ejercicio 8
+     	System.out.println("\n\n      Ejercicio 8. Cuenta y CuentaAhorro\n");
+     	Producto p1 = new ProductoDigital();
+        p1.mostrarDescripcion("Manzana", 5);
+        
 	}
 
 }
