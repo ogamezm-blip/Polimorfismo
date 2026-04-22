@@ -34,6 +34,10 @@ public class Main {
      	Persona estudiante = new Estudiante();
         estudiante.presentarse("1234", "Ingenieria en Sistemas");
         
+        // Ejercicio 7
+     	System.out.println("\n\n      Ejercicio 7. Vehiculo y Motocicleta\n");
+     	Vehiculo m1 = new Motocicleta();
+        m1.encender();
         
 	}
 
