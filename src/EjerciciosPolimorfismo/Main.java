@@ -40,10 +40,14 @@ public class Main {
         m1.encender();
         
         // Ejercicio 8
-     	System.out.println("\n\n      Ejercicio 8. Cuenta y CuentaAhorro\n");
+     	System.out.println("\n\n      Ejercicio 8. Producto y ProductoDigital\n");
      	Producto p1 = new ProductoDigital();
         p1.mostrarDescripcion("Manzana", 5);
         
+        // Ejercicio 9
+     	System.out.println("\n\n      Ejercicio 8. Instrumento y Guitarra\n");
+     	Instrumento g1 = new Guitarra();
+        g1.tocar();
 	}
 
 }
