@@ -24,6 +24,10 @@ public class Main {
      	Cuenta deposito = new CuentaAhorro();
         deposito.depositar(200);
      	
+     // Ejercicio 5
+     	System.out.println("\n      Ejercicio 5. Transporte y Avion\n");
+     	Transporte t1 = new Avion();
+        t1.moverse();
      	
 	}
 
