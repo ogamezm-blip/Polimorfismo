@@ -4,6 +4,22 @@ public class Main {
 
 	public static void main(String[] args) {
 		
+		/*
+		 1. Cómo aplicaste herencia: 
+		 Utilicé la palabra clave 'extends' en las clases hijas para que heredaran 
+		 los atributos y métodos de sus clases padre.
+		 
+		 2. Qué métodos sobrescribiste: 
+		 Los métodos que sobreescribí fueron las de las clases hijas para 
+		 agregar más informacion y hacer cambios utiles.
+		 
+		 3. Casos de prueba utilizados: 
+		 En el método main, instancié objetos de las clases hijas, pero 
+		 los almacené en variables de referencia de las clases padre. 
+		 Al ejecutar los métodos Java decide en tiempo de ejecución llamar al método
+		 del objeto real y no al de la referencia.
+		 */
+		
 		// Ejercicio 1
 		System.out.println("      Ejercicio 1. Animal y Perro\n");
         Animal perro = new Perro();
@@ -45,9 +61,14 @@ public class Main {
         p1.mostrarDescripcion("Manzana", 5);
         
         // Ejercicio 9
-     	System.out.println("\n\n      Ejercicio 8. Instrumento y Guitarra\n");
+     	System.out.println("\n\n      Ejercicio 9. Instrumento y Guitarra\n");
      	Instrumento g1 = new Guitarra();
         g1.tocar();
+        
+        // Ejercicio 10
+     	System.out.println("\n\n      Ejercicio 10. Trabajador y TrabajadorPorHora\n");
+     	Trabajador trabajador1 = new TrabajadorPorHora();
+        trabajador1.calcularPago(8, 25);
 	}
 
 }
