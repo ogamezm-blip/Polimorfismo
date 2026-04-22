@@ -14,7 +14,10 @@ public class Main {
      	Figura figuritaR = new Rectangulo(10, 5);
         System.out.println("Área del Rectángulo: " + figuritaR.area());
      	
-     	
+        // Ejercicio 3
+     	System.out.println("\n      Ejercicio 3. Empleado y Vendedor\n");
+        Empleado empleado = new Vendedor("Ana", 500);
+        empleado.resumen();
 	}
 
 }
