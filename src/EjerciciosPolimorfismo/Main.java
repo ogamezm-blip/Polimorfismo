@@ -10,25 +10,31 @@ public class Main {
         perro.hacerSonido();
         
         // Ejercicio 2
-     	System.out.println("\n      Ejercicio 2. Figura y Rectangulo\n");
+     	System.out.println("\n\n      Ejercicio 2. Figura y Rectangulo\n");
      	Figura figuritaR = new Rectangulo(10, 5);
         System.out.println("Área del Rectángulo: " + figuritaR.area());
      	
         // Ejercicio 3
-     	System.out.println("\n      Ejercicio 3. Empleado y Vendedor\n");
+     	System.out.println("\n\n       Ejercicio 3. Empleado y Vendedor\n");
         Empleado empleado = new Vendedor("Ana", 500);
         empleado.resumen();
         
         // Ejercicio 4
-     	System.out.println("\n      Ejercicio 4. Cuenta y CuentaAhorro\n");
+     	System.out.println("\n\n      Ejercicio 4. Cuenta y CuentaAhorro\n");
      	Cuenta deposito = new CuentaAhorro();
         deposito.depositar(200);
      	
-     // Ejercicio 5
-     	System.out.println("\n      Ejercicio 5. Transporte y Avion\n");
+        // Ejercicio 5
+     	System.out.println("\n\n      Ejercicio 5. Transporte y Avion\n");
      	Transporte t1 = new Avion();
         t1.moverse();
      	
+        // Ejercicio 6
+     	System.out.println("\n\n      Ejercicio 6. Persona y Estudiante\n");
+     	Persona estudiante = new Estudiante();
+        estudiante.presentarse("1234", "Ingenieria en Sistemas");
+        
+        
 	}
 
 }
